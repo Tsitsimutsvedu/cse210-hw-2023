@@ -1,9 +1,30 @@
 using System;
 
-class Program
+namespace OPPs
+
+class Encapsulation
+
 {
+    private string Name;
+    public string EmployeeName
+    { 
+        //Property
+        get {return Name;}
+        set {Name = value;}
+    }
+}
+
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
-    }
+        string Name2 = string.Empty;
+        //use properties
+        Encapsulation e = new Encapsulation();
+        Name2 = e.EmployeeName;
+    
+        Console.WriteLine("Employee Name: " + Name2);
+        Console.ReadLine();
+    {
+
+}
+
 }
