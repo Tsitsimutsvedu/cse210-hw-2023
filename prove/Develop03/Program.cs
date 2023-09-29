@@ -4,6 +4,7 @@ namespace OPPs
 
 class Encapsulation
 
+
 {
     private string Name;
     public string EmployeeName
@@ -28,3 +29,4 @@ class Encapsulation
 }
 
 }
+
