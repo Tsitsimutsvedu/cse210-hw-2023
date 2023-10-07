@@ -1,32 +1,17 @@
 using System;
-
-namespace OPPs
-
-class Encapsulation
-
-
+class Program
 {
-    private string Name;
-    public string EmployeeName
-    { 
-        //Property
-        get {return Name;}
-        set {Name = value;}
+    static void Main(string[] args)
+
+    {
+        console WriteLine()
+
+
+        Reference reference1 = new Reference ("John 3:16");
+        Scripture scripture1 = new Scripture (reference1,"For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.");
+
+        Console.WriteLine($"{reference1.GetDisplayText()} {scripture1.GetDisplayText()} ");
+
+        Console.WriteLine();
     }
 }
-
-    static void Main(string[] args)
-    {
-        string Name2 = string.Empty;
-        //use properties
-        Encapsulation e = new Encapsulation();
-        Name2 = e.EmployeeName;
-    
-        Console.WriteLine("Employee Name: " + Name2);
-        Console.ReadLine();
-    {
-
-}
-
-}
-
