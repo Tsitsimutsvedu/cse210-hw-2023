@@ -4,6 +4,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Final Project!");
+        Console.WriteLine("Final Project Prove 7!");
     }
 }
